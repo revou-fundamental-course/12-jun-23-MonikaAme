@@ -1,0 +1,73 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #FCFFE7;
+}
+header {
+    font-size: 25px;
+    text-align: center;
+    .temperature {
+        color: #EB455F;
+      }
+      
+    .conversion {
+        color: #2B3467;
+      }
+    
+}
+
+label {
+    margin-bottom: 4px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2B3467;
+}
+
+button {
+    background-color: #EB455F;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #EB455F;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #2B3467;
+    color: white;
+    border: 1px solid #2B3467;
+}
+
+button:active {
+    transform: translateY(2px);
+    background-color: #BAD7E9;
+    border: 1px solid #2B3467;
+    color: #2B3467;
+}
+
+#inputfield {
+    outline: none;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 8px;
+    border: solid #2482bd;
+    padding: 10px;
+}
+
+#inputfield:focus {
+    border: solid #2B3467;
+}
+
+.InputSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.InputButtonSection {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
