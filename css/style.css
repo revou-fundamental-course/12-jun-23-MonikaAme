@@ -1,3 +1,5 @@
+/* DESIGN FOR BODY */
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #FCFFE7;
@@ -47,6 +49,8 @@ button:active {
     color: #2B3467;
 }
 
+/* DESIGN FOR ID */
+
 #inputfield {
     outline: none;
     font-size: 18px;
@@ -61,6 +65,26 @@ button:active {
     border: solid #2B3467;
 }
 
+#error-message {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #EB455F;
+    font-size: 13px;
+}
+
+#fahrenheit {
+    outline: none;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 8px;
+    border: solid #2482bd;
+    padding: 10px;
+}
+
+/* DESIGN FOR CLASS */
+
 .InputSection {
     display: flex;
     flex-direction: column;
@@ -71,3 +95,36 @@ button:active {
     flex-direction: row;
     align-self: center;
 }
+
+.Resultconversion {
+    display: flex;
+    flex-direction: column;
+}
+
+/*ERROR MESSAGE*/
+.Explanation {
+    display: none;
+  }  
+
+.Explanation {
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 8px;
+    border: none;
+    background-color: #BAD7E9;
+    padding: 10px;
+  }
+  
+  .Explanation h2 {
+    color: #2B3467;
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .Explanation p {
+    color: #EB455F;
+    font-size: 13px;
+    text-align: center;
+    line-height: 1.5;
+  }

@@ -4,20 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
     <title>Temperature Conversion</title>
 </head>
 <body>
     <header>
-        <h1><span class="temperature">Temperature</span> <span class="conversion">Conversion</span></h1>
+        <h1>
+            <span class="temperature">Temperature</span>
+            <span class="conversion">Conversion</span>
+        </h1>
     </header>
     <section class="InputSection">
-        <label for="inputfield">Celcius</label>
-        <input type="number" id="inputfield"/>
-        <div class="InputButtonSection">
-            <button>Convert</button>
-            <button>Reset</button>
-            <button>Reverse</button>
+        <label for="inputfield">Celsius (°C)</label>
+        <input type="text" id="inputfield" placeholder="Enter temperature">
         </div>
+            <div id="error-message">
+        </div>
+        <div class="InputButtonSection">
+            <button id="convert">Convert</button>
+            <button id="reset">Reset</button>
+            <button id="reverse">Reverse</button>
+        </div>
+        <br>
+        <div class="Resultconversion">
+            <label for="fahrenheit">Fahrenheit (°F)</label>
+            <input type="text" id="fahrenheit" readonly>
+        </div>
+        <br>
+        <div class="Explanation">
+            <h2>Explanation of the Conversion Result</h2>
+            <p id="explanationText"></p>
     </section>
 </body>
 </html>
