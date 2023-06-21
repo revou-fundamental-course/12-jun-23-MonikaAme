@@ -1,0 +1,154 @@
+/* DESIGN FOR BODY */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #FCFFE7;
+}
+header {
+    font-size: 25px;
+    text-align: center;
+    .temperature {
+        color: #EB455F;
+      }
+      
+    .conversion {
+        color: #2B3467;
+      }
+    
+}
+
+p {
+    font-size: 13px;
+    color: #2482bd;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #2B3467;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+label {
+    margin-bottom: 4px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2B3467;
+}
+
+button {
+    background-color: #EB455F;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #EB455F;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #2B3467;
+    color: white;
+    border: 1px solid #2B3467;
+}
+
+button:active {
+    transform: translateY(2px);
+    background-color: #BAD7E9;
+    border: 1px solid #2B3467;
+    color: #2B3467;
+}
+
+hr {
+    height: 1px;
+    background-color: #EB455F;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* DESIGN FOR ID */
+
+#inputfield {
+    outline: none;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 8px;
+    border: solid #2482bd;
+    padding: 10px;
+}
+
+#inputfield:focus {
+    border: solid #2B3467;
+}
+
+#error-message {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #EB455F;
+    font-size: 13px;
+}
+
+#fahrenheit {
+    outline: none;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 8px;
+    border: solid #2482bd;
+    padding: 10px;
+}
+
+/* DESIGN FOR CLASS */
+
+.InputSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.InputButtonSection {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.Resultconversion {
+    display: flex;
+    flex-direction: column;
+}
+
+/*ERROR MESSAGE*/
+
+.Explanation {
+    display: none;
+  }  
+
+.Explanation {
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 8px;
+    border: none;
+    background-color: #BAD7E9;
+    padding: 10px;
+  }
+  
+  .Explanation h2 {
+    color: #2B3467;
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .Explanation p {
+    color: #EB455F;
+    font-size: 13px;
+    text-align: center;
+    line-height: 1.5;
+  }
