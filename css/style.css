@@ -17,6 +17,22 @@ header {
     
 }
 
+p {
+    font-size: 13px;
+    color: #2482bd;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #2B3467;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 label {
     margin-bottom: 4px;
     margin-left: 100px;
@@ -47,6 +63,13 @@ button:active {
     background-color: #BAD7E9;
     border: 1px solid #2B3467;
     color: #2B3467;
+}
+
+hr {
+    height: 1px;
+    background-color: #EB455F;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 /* DESIGN FOR ID */
@@ -102,6 +125,7 @@ button:active {
 }
 
 /*ERROR MESSAGE*/
+
 .Explanation {
     display: none;
   }  

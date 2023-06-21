@@ -91,12 +91,21 @@ window.addEventListener('DOMContentLoaded', (event) => {
     function showErrorMessage(message) {
       errorMessage.textContent = message;
       errorMessage.style.display = 'block';
+
+      // Add red border to input field
+    inputField.style.border = '2px solid red';
     }
+    
   
     // Function to clear the error message
     function clearErrorMessage() {
       errorMessage.textContent = '';
       errorMessage.style.display = 'none';
+     
+      // Remove red border from input field
+    inputField.style.border = '';
     }
   });
+
+  
   
